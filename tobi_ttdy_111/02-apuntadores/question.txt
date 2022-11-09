@@ -1,0 +1,12 @@
+
+El asterisco ( * ) tiene 2 usos:
+1 - Crear una puntador
+2 - Acceder al valor de un apuntador
+
+Si:
+
+int var = 10;
+int * apVar = &var;
+
+printf( "%i", variable );       dara la ubicacion en memoria
+printf( "%i", * variable );     dara el valor   &&   es igual a:    printf( "%i", var );
